@@ -1,0 +1,61 @@
+.register{
+    color: #ff5900;
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
+    background: url("./src/pages/register/974428.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}   
+.registerTitle{
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.registerForm > label{
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.registerInput{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-color: #ff5900;
+    color: red;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: #ff5900;
+    border: 10;
+    border-color: #ff5900;
+    font-size: 15px;
+    font-weight: 850;
+    /* box-shadow: inset; */
+    box-shadow: #ff5900;
+    padding: 5px;
+    
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
